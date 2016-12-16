@@ -14,6 +14,8 @@ ASA filament or a high temp/low warp PLA should work best. I print with 20% infi
 
 I'm interested in seeing how well a 9mm wall with 10% infill will insulate the mini-nuc (you would have better insulating capabilities with 20% infill but the amount of filament changes from 381 grams (10% infill) to 532 grams (20% infill)).
 
+No supports needed.
+
 DO NOTE: Working on this during the 2016/2017 winter - this HAS NOT been tried or tested as of yet. THIS IS EXPERIMENTAL
 
 This is a work in progress.
