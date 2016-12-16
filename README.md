@@ -1,5 +1,5 @@
 # 4FrameMatingNuc
-3D Printed Four (4) Frame Mating Nuc
+3D Printed Four (4) Frame Mini Mating Nuc
 
 UNTESTED!! Developed over the 2016 winter, will be actually testing it in the spring/summer 2017
 
