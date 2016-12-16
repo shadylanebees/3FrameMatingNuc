@@ -10,6 +10,12 @@ Created with OpenSCAD, you can enlarge the box, frames, etc depending on the siz
 
 All parts are 3D printed, except one #4 x 3/8 (3mmx8) self-tapping (sheet metal, wood, cement) pan head screw to attach the entrance disk gate will be needed.
 
+ASA filament or a high temp/low warp PLA should work best. I print with 20% infill and .8 top/bottom/shell.
+
+I'm interested in seeing how well a 9mm wall with 20% infill will insulate the mini-nuc.
+
+DO NOTE: Working on this during the 2016/2017 winter - this HAS NOT been tried or tested as of yet. THIS IS EXPERIMENTAL
+
 This is a work in progress.
 
 ![alt tag](https://github.com/shadylanebees/3FrameMatingNuc/blob/master/blowout.png?raw=true)
