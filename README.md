@@ -1,10 +1,10 @@
-# 3FrameMatingNuc
-3D Printed Three (3) Frame Mating Nuc
+# 4FrameMatingNuc
+3D Printed Four (4) Frame Mating Nuc
 
 UNTESTED!! Developed over the 2016 winter, will be actually testing it in the spring/summer 2017
 
-A 3 frame mating nuc that you can create with a 3D printer. The box, feeder tray, lid and the three frames use approx 640grams
-of 1.75 filament. The frame size is small .. 1/3 of a normal Langstroth frame. With the spanners, the three frames can be taken out of the nuc and placed into a full medium langstroth hive. 
+A 3 frame mating nuc that you can create with a 3D printer. The box, feeder tray, lid and the four frames use approx 645 grams
+of filament. The frame size is small .. 1/3 of a normal Langstroth frame. With the spanners, the three frames can be taken out of the nuc and placed into a full medium langstroth hive. 
 
 Created with OpenSCAD, you can enlarge the box, frames, etc depending on the size of your printer by changing the variables in each OpenSCAD file.
 
