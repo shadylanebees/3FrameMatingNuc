@@ -1,6 +1,6 @@
 x=26;
 y=129; // see the box.scad framelength echo line and subtract 2
-z=6;
+z=4;
 
 
 rotate([0,90,0]) union() {
@@ -12,11 +12,11 @@ translate([0,0,z]) rotate([0,180,0]) union() {
 }
 
 // legs
-translate([-26,12,6]) cube([26,6,144]);
-translate([-26,y-12-6,6]) cube([26,6,144]);
+translate([-26,6,3]) cube([26,2,143.5]);
+translate([-26,y-3-6,3]) cube([26,2,143.5]);
 
 // comb bridge
-translate([(-26/2-5),12,6]) rotate([135,0,90]) prism(y-6-6-6-8,7,12);
+translate([(-26/2-5),6,4]) rotate([135,0,90]) prism(y-0-2-3-8,7,12);
 }
 
 
