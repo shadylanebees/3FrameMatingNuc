@@ -2,7 +2,7 @@
 // this feed tray is better suited for solid foods due to
 // the nature of 3D printing
 
-width = 128.1; 
+width = 146.575; 
 depth = 150;
 height = 26;
 
@@ -16,7 +16,7 @@ translate([9,48,18]) cube([width,2,16]);
 
 
 
-module queen_excluder(length=128.1) { // using diameter of 4.3mm
+module queen_excluder(length=146.575) { // using diameter of 4.3mm
     for(i = [10 : 8.8 : 44]) {
         translate([(length-(length-30))/2,i,0])
         hull() {
