@@ -1,5 +1,5 @@
 /*
-Open 3 Frame Mating Nuc, 
+Open 4 Frame Mating Nuc, 
 released to the Public Domain by Robert Niles
 */
 //frame top bar width: 161mm
@@ -11,16 +11,17 @@ released to the Public Domain by Robert Niles
 // so you can start them in a regular hive and/or move them
 // from the nuc to a regular hive when finished.
 
-width = 128.1; 
+width = 146.575; 
+// set depth back to 150
 depth = 150;
 framelength = depth-19;
 echo(framelength=framelength);
-height = 188;
+height = 160;
 
 // front wall
 difference() {
 fb_wall(width,height);
-translate([(width/2)-25,0,12]) entrance_area();    
+translate([(width/2)-25,0,8]) entrance_area();    
 }    
 // back wall
 translate([width,depth,0]) rotate([180,180,0]) fb_wall(width,height);
@@ -46,12 +47,13 @@ module fb_wall(w=128.1,h=185){
         cube([w,18,h]);
         
         // frame ledge
-        translate([w,9,h-16]) rotate([0,0,90]) cube([9.525,w,16.1]);
+        translate([w,9,h-8]) rotate([0,0,90]) cube([9.525,w,16.1]);
 
         // frame divvets
-        translate([9.525,9,h-20]) cube([30,9.525,14]);
-        translate([30+(9.525*2),9,h-20]) cube([30,9.525,14]);
-        translate([(30*2+(9.525*3)),9,h-20]) cube([30,9.525,14]);   
+        translate([5,9,h-10]) cube([27,9.525,14]);
+        translate([5+27+9.525,9,h-10]) cube([27,9.525,14]);
+        translate([5+27+9.525+27+9.525,9,h-10]) cube([27,9.525,14]);
+        translate([5+27+9.525+27+9.525+27+9.525,9,h-10]) cube([27,9.525,14]);   
     }
 }
 
@@ -95,14 +97,3 @@ module entrance_area() {
             }
         }        
 }
-
-
-
-
-
-    
-
-
-
-   
-    
