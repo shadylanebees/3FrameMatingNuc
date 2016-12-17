@@ -3,7 +3,7 @@
 // the nature of 3D printing
 
 width = 146.575; 
-depth = 150;
+depth = 179;
 height = 26;
 
 difference() {

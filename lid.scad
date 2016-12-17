@@ -1,7 +1,7 @@
 // use the same width and depth as with the bee box
 
 width = 146.575; 
-depth = 150;
+depth = 179;
 height = 8;
 
 difference() {

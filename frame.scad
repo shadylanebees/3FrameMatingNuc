@@ -1,5 +1,5 @@
 x=26;
-y=129; // see the box.scad framelength echo line and subtract 2
+y=158; // see the box.scad framelength echo line and subtract 2
 z=4;
 
 
