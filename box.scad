@@ -14,9 +14,9 @@ released to the Public Domain by Robert Niles
 width = 146.575; 
 // set depth back to 150
 depth = 179;
-framelength = depth-19;
+framelength = depth-18;
 echo(framelength=framelength);
-height = 160;
+height = 157;
 
 // front wall
 difference() {
@@ -28,7 +28,6 @@ translate([width,depth,0]) rotate([180,180,0]) fb_wall(width,height);
 
 // side 1
 color("green") translate([-9,0,0]) cube([9,depth,height]);
-
 
 // side 2
 color("green") translate([width,0,0]) cube([9,depth,height]);
@@ -50,7 +49,7 @@ module fb_wall(w=128.1,h=185){
         translate([w,9,h-8]) rotate([0,0,90]) cube([9.525,w,16.1]);
 
         // frame divvets
-        translate([5,9,h-10]) cube([27,9.525,14]);
+        translate([5,9,h-10]) cube([26,9.525,14]);
         translate([5+27+9.525,9,h-10]) cube([27,9.525,14]);
         translate([5+27+9.525+27+9.525,9,h-10]) cube([27,9.525,14]);
         translate([5+27+9.525+27+9.525+27+9.525,9,h-10]) cube([27,9.525,14]);   
@@ -73,7 +72,7 @@ module entrance_area() {
         translate([27,35,25]) {
             rotate([90,0,0]) {
                 color("blue") {
-                cylinder(h=21, r=17);
+                cylinder(h=21, r=22);
                }
             }
         }
