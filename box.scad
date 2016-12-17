@@ -13,7 +13,7 @@ released to the Public Domain by Robert Niles
 
 width = 146.575; 
 // set depth back to 150
-depth = 150;
+depth = 179;
 framelength = depth-19;
 echo(framelength=framelength);
 height = 160;
@@ -97,3 +97,14 @@ module entrance_area() {
             }
         }        
 }
+
+
+
+
+
+    
+
+
+
+   
+    
