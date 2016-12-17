@@ -19,4 +19,4 @@ DO NOTE: Working on this during the 2016/2017 winter - this HAS NOT been tried o
 
 This is a work in progress. The picture may not represent the latest version.
 
-![alt tag](https://github.com/shadylanebees/3FrameMatingNuc/blob/master/blowout.png?raw=true)
+![alt tag](https://github.com/shadylanebees/4FrameMatingNuc/blob/master/blowout.png?raw=true)
