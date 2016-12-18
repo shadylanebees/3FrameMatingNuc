@@ -1,5 +1,5 @@
 x=25;
-y=159; // see the box.scad framelength echo line and subtract 2
+y=159; // see the box.scad framelength echo line and subtract 2 - this is the distance between the tapered top bar ends
 z=4;
 
 
@@ -15,13 +15,13 @@ translate([-3.5,0,z]) rotate([0,180,0]) union() {
 }
 
 // legs
-// medium frame legs are: 6-5/8" or 168mm (rounded)
+// medium frame legs are 158mm (rounded down)
 translate([-32,15,0]) rotate([90,0,0]) tapered_leg();
 translate([-32,y-12,0]) rotate([90,0,0]) tapered_leg();
 
-
-//translate([-32,6,3]) cube([32,2,137]);
-//translate([-32,y-3-6,3]) cube([32,2,137]);
+// old straight legs
+//translate([-32,15,3]) cube([32,2,158]);
+//translate([-32,y-12,3]) cube([32,2,158]);
 
 // comb bridge
 translate([(-32/2-5),13,4]) rotate([135,0,90]) prism(y-0-14-6-8,7,12);
@@ -44,5 +44,7 @@ module prism(l, w, h){
 }
 
 module tapered_leg() {
-linear_extrude(height = 3, convexity = 3) polygon([[0,0],[32,0],[32,55],[27,138],[5,138],[0,55]],[[0,1,2,3,4,5]]);
+    // frame le
+    
+linear_extrude(height = 3, convexity = 3) polygon([[0,0],[32,0],[32,55],[27,158.8],[5,158.8],[0,55]],[[0,1,2,3,4,5]]);
 }    

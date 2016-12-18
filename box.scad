@@ -2,7 +2,7 @@
 Open 4 Frame Mating Nuc, 
 released to the Public Domain by Robert Niles
 */
-//frame top bar width: 161mm
+
 
 // these sizes are the best
 // doesn't include each 9mm side
@@ -11,17 +11,16 @@ released to the Public Domain by Robert Niles
 // so you can start them in a regular hive and/or move them
 // from the nuc to a regular hive when finished.
 
-width = 146.575; 
-// set depth back to 150
-depth = 179;
-framelength = depth-18;
+width = 146.575; // x axis 
+depth = 179; // y axis
+framelength = depth-18; // y axis: minus 9mm from each side
 echo(framelength=framelength);
-height = 157;
+height = 179.8; // z axis : 158.8 frame height + 6mm above + 6mm below + the 9mm bottom
 
 // front wall
 difference() {
-fb_wall(width,height);
-translate([(width/2)-25,0,8]) entrance_area();    
+    fb_wall(width,height);
+    translate([(width/2)-25,0,8]) entrance_area();    
 }    
 // back wall
 translate([width,depth,0]) rotate([180,180,0]) fb_wall(width,height);
@@ -40,7 +39,7 @@ cube([width,depth,9]);
 
 
 
-module fb_wall(w=128.1,h=185){  
+module fb_wall(w=146.575,h=170.8){  
     difference() {
         // basic side
         cube([w,18,h]);
@@ -96,14 +95,3 @@ module entrance_area() {
             }
         }        
 }
-
-
-
-
-
-    
-
-
-
-   
-    
