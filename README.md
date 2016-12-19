@@ -5,7 +5,7 @@ UNTESTED!! Developed over the 2016 winter, will be actually testing it in the sp
 
 A 3 frame mating nuc that you can create with a 3D printer. The box, feeder tray, lid and the four frames use approx 645 grams (this will change as I make changes) (10% infill box, 20% infill all other parts) of filament. The frame size is small .. 1/3 of a normal Langstroth frame. With the spanners, the three frames can be taken out of the nuc and placed into a full medium langstroth hive. 
 
-The project has been placed in the Public Domain as a thanks to beekeepers, opensource software, including those who provide the OS, CAD software, and slicing software ... as well as opensource 3d printing hardware. Kudos to you all! I would also like to encourage additional contributors to add to the project as they desire.
+The project has been placed in the Public Domain as a thanks to beekeepers, opensource software, including those who provide the OS, CAD software, and slicing software ... as well as opensource 3d printing hardware. Kudos to you all! I would also like to encourage additional contributors to add to the project as they desire. Additional ideas that I have is a screened bottom, and other venting as needed (I live in a very moist climate)
 
 Created with OpenSCAD, you can enlarge the box, frames, etc depending on the size of your printer by changing the variables in each OpenSCAD file. 
 
