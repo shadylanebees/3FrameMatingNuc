@@ -7,7 +7,7 @@ A 3 frame mating nuc that you can create with a 3D printer. The box, feeder tray
 
 All parts are 3D printed, except one #4 x 3/8 (3mmx8) self-tapping (sheet metal, wood, cement) pan head screw to attach the entrance disk gate will be needed.
 
-Created with OpenSCAD, you can change the size of the box, frames, etc. by changing the variables in each OpenSCAD file.
+Created with OpenSCAD, you can change the size of the box, frames, etc. by changing the variables in each OpenSCAD file. Not quite parametric just yet but will be advancing with that goal in mind.
 
 ASA filament or a high temp/low warp PLA should work best. Annealing the PLA does increase the temperature resistance of PLA but may cause shrinking. Test to find out. I'm working to anneal my PLA printed parts at 175°F (roughly 80°C) for 30 minutes. Except for ASA filament, you'll want to paint your prints to protect against UV.
 
