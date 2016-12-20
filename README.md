@@ -11,7 +11,7 @@ Created with OpenSCAD, you can change the size of the box, frames, etc. by chang
 
 ASA filament or a high temp/low warp PLA should work best. Annealing the PLA does increase the temperature resistance of PLA but may cause shrinking. Test to find out. I'm working to anneal my PLA printed parts at 175°F (roughly 80°C). Except for ASA filament, you'll want to paint your prints to protect against UV.
 
-**The box:** you can print the 3 or 4 frame version. 10% infill seems ok, might want to experiment with 15% infill but this will use more filament.
+**The box:** you can print the 3 or 4 frame version. 10% infill seems ok, might want to experiment with 15% infill but this will use more filament. The size of the box is larger and any mini-nuc that I'm aware of, the hope is that management needs and the chance of obsconding decrease.
 
 **The entrance gate:** Use a screw mentioned above, the gate rotates from full open, venting only, or to the queen excluder
 
