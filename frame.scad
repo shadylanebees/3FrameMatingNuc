@@ -15,16 +15,16 @@ translate([-3.5,0,z]) rotate([0,180,0]) union() {
 }
 
 // legs
-// medium frame legs are 158mm (rounded down)
-translate([-32,15,0]) rotate([90,0,0]) tapered_leg();
-translate([-32,y-12,0]) rotate([90,0,0]) tapered_leg();
+// medium frames are 158.8mm (rounded down)
+translate([-33,18,0]) rotate([90,0,0]) tapered_leg();
+translate([-33,y-15,0]) rotate([90,0,0]) tapered_leg();
 
 // old straight legs
 //translate([-32,15,3]) cube([32,2,158]);
 //translate([-32,y-12,3]) cube([32,2,158]);
 
 // comb bridge
-translate([(-32/2-5),13,4]) rotate([135,0,90]) prism(y-0-14-6-8,7,12);
+translate([(-32/2-5),16,4]) rotate([135,0,90]) prism(y-6-14-6-8,7,12);
 }
 }
 
@@ -44,7 +44,5 @@ module prism(l, w, h){
 }
 
 module tapered_leg() {
-    // frame le
-    
-linear_extrude(height = 3, convexity = 3) polygon([[0,0],[32,0],[32,55],[27,158.8],[5,158.8],[0,55]],[[0,1,2,3,4,5]]);
+linear_extrude(height = 3, convexity = 3) polygon([[0,0],[34,0],[34,55],[26,158.8],[6,158.8],[0,55]],[[0,1,2,3,4,5]]);
 }    

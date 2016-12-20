@@ -1,5 +1,5 @@
 /*
-Open 4 Frame Mating Nuc, 
+Open 4 Frame Mating Nuc, 3 frame version
 released to the Public Domain by Robert Niles
 */
 
@@ -15,7 +15,7 @@ width = 110.05; // x axis
 depth = 179; // y axis
 framelength = depth-18; // y axis: minus 9mm from each side
 echo(framelength=framelength);
-height = 179.8; // z axis : 158.8 frame height + 6mm above + 6mm below + the 9mm bottom
+height = 185.8; // z axis : 158.8 frame height + 9mm above + 9mm below + the 9mm bottom
 
 // front wall
 difference() {
@@ -31,27 +31,23 @@ color("green") translate([-9,0,0]) cube([9,depth,height]);
 // side 2
 color("green") translate([width,0,0]) cube([9,depth,height]);
 
-
 //bottom
 cube([width,depth,9]);
 
 
-
-
-
-module fb_wall(w=146.575,h=170.8){  
+module fb_wall(w=146.575,h=185.8){  
     difference() {
         // basic side
         cube([w,18,h]);
         
         // frame ledge
-        translate([w,9,h-8]) rotate([0,0,90]) cube([9.525,w,16.1]);
+        translate([w,9,h-11]) rotate([0,0,90]) cube([9.525,w,16.1]);
 
-        // frame divvets
-        translate([5,9,h-10]) cube([26,9.525,14]);
-        translate([5+27+9.525,9,h-10]) cube([27,9.525,14]);
-        translate([5+27+9.525+27+9.525,9,h-10]) cube([27,9.525,14]);
-        //translate([5+27+9.525+27+9.525+27+9.525,9,h-10]) cube([27,9.525,14]);   
+        // frame grooves
+        translate([5,9,h-13]) cube([27,9.525,14]);
+        translate([5+27+9.525,9,h-13]) cube([27,9.525,14]);
+        translate([5+27+9.525+27+9.525,9,h-13]) cube([27,9.525,14]);
+        //translate([5+27+9.525+27+9.525+27+9.525,9,h-13]) cube([27,9.525,14]);   
     }
 }
 
