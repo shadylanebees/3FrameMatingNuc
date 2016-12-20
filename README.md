@@ -21,7 +21,7 @@ ASA filament or a high temp/low warp PLA should work best. Annealing the PLA doe
 
 **The nuc cover:** Has option to be printed with a feed hole or not. With the feed hole, you can place a jar or other feeding container over the hive to feed the bees liquid feed (eg: 1:1 syrup). 
 
-This project has been placed in the Public Domain as a thanks to all those very open, sharing and kind beekeepers all throughout the world, the open source software developers, including those who provide CAD software and slicing software, and to those who develop open source 3d printing machines. Kudos to you all! 
+_**This project has been placed in the Public Domain**_ as a thanks to all those very open, sharing and kind beekeepers all throughout the world, the open source software developers, including those who provide CAD software and slicing software, and to those who develop open source 3d printing machines. Kudos to you all! 
 
 I would also like to encourage additional contributors to add to the project as they desire. I'm sure there's lots of ideas out there. Additional ideas that I have is a screened bottom, and other venting as needed (I live in a very moist climate)
 DO NOTE: Working on this during the 2016/2017 winter - this HAS NOT been tried or tested as of yet. THIS IS EXPERIMENTAL
