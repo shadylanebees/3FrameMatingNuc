@@ -9,7 +9,7 @@ All parts are 3D printed, except one #4 x 3/8 (3mmx8) self-tapping (sheet metal,
 
 Created with OpenSCAD, you can change the size of the box, frames, etc. by changing the variables in each OpenSCAD file.
 
-ASA filament or a high temp/low warp PLA should work best. Annealing the PLA does increase the temperature resistance of PLA but may cause shrinking. Test to find out. I'm working to anneal my PLA printed parts at 175°F (roughly 80°C). Except for ASA filament, you'll want to paint your prints to protect against UV.
+ASA filament or a high temp/low warp PLA should work best. Annealing the PLA does increase the temperature resistance of PLA but may cause shrinking. Test to find out. I'm working to anneal my PLA printed parts at 175°F (roughly 80°C) for 30 minutes. Except for ASA filament, you'll want to paint your prints to protect against UV.
 
 **The box:** you can print the 3 or 4 frame version. 10% infill seems ok, might want to experiment with 15% infill but this will use more filament. The size of the box is larger and any mini-nuc that I'm aware of, the hope is that management needs and the chance of obsconding decrease.
 
@@ -23,7 +23,8 @@ ASA filament or a high temp/low warp PLA should work best. Annealing the PLA doe
 
 _**This project has been placed in the Public Domain**_ as a thanks to all those very open, sharing and kind beekeepers all throughout the world, the open source software developers, including those who provide CAD software and slicing software, and to those who develop open source 3d printing machines. Kudos to you all! 
 
-I would also like to encourage additional contributors to add to the project as they desire. I'm sure there's lots of ideas out there. Additional ideas that I have is a screened bottom, and other venting as needed (I live in a very moist climate)
+I would also like to encourage additional contributors to add to the project as they desire. I'm sure there's lots of ideas out there. If you want to contribute and are familiar with OpenSCAD, please let me know. Additional ideas that I have is a screened bottom, and other venting as needed (I live in a very moist climate)
+
 DO NOTE: Working on this during the 2016/2017 winter - this HAS NOT been tried or tested as of yet. THIS IS EXPERIMENTAL
 This is a work in progress. The picture may not represent the latest version.
 
