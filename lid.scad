@@ -21,7 +21,7 @@ difference() {
 module lid_with_ribs() { 
    difference() {
         cube([width+18+5+4,depth+7,height]);
-        translate([2.5,2.5,4]) cube([width+18+4,depth,height]);
+        translate([2.5,2.5,4]) cube([width+18+4,depth+2,height]);
     }
     ribs();
 }
