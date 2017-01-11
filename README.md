@@ -10,7 +10,7 @@ All parts are 3D printed, except one #4 x 3/8 (3mmx8) self-tapping (sheet metal,
 
 Created with OpenSCAD, you can change the size of the box, frames, etc. by changing the variables in each OpenSCAD file. Not quite parametric just yet but will be advancing with that goal in mind.
 
-ASA filament or a high temp/low warp PLA should work best. Annealing the PLA does increase the temperature resistance of PLA but may cause shrinking. Test to find out. I'm working to anneal my PLA printed parts at 175°F (roughly 80°C) for 30 minutes. Except for ASA filament, you'll want to paint your prints to protect against UV.
+ASA filament, ASB filament, or a high temp/low warp PLA should work best. Except for ASA filament, you'll want to paint your prints to protect against UV.
 
 **The box:** you can print the 3 or 4 frame version. 10% infill seems ok, might want to experiment with 15% infill but this will use more filament. The size of the box is larger and any mini-nuc that I'm aware of, the hope is that management needs and the chance of obsconding decrease.
 
