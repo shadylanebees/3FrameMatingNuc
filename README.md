@@ -22,7 +22,7 @@ ASA filament or a high temp/low warp PLA should work best. Annealing the PLA doe
 
 **The nuc cover:** Has option to be printed with a feed hole or not. With the feed hole, you can place a jar or other feeding container over the hive to feed the bees liquid feed (eg: 1:1 syrup).
 
-**The spanners:** OK, maybe not the best name, a spanner in UK english is a wrench ... but this allows you to place the mini frames into a medium (or deep) box and have the bees draw the frames before using them in a mating nuc.
+**The spanners:** OK, maybe not the best name, a spanner in UK english is a wrench ... but this allows you to place the mini frames into a medium (or deep) box and have the bees draw the frames before using them in a mating nuc. See: https://github.com/shadylanebees/3FrameMatingNuc/blob/master/20161227_194710.jpg
 
 _**This project has been placed in the Public Domain**_ as a thanks to all those very open, sharing and kind beekeepers all throughout the world, the open source software developers, including those who provide CAD software and slicing software, and to those who develop open source 3d printing machines. Kudos to you all! 
 
