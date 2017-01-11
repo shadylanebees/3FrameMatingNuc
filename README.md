@@ -1,9 +1,10 @@
-# 4FrameMatingNuc
-3D Printed Four (4) Frame Mating Nuc
+# 3FrameMatingNuc
+3D Printed Three (3) Frame Mating Nuc
+(4 frame version available)
 
 UNTESTED!! Developed over the 2016 winter, will be actually testing it in the spring/summer 2017
 
-A 3 frame mating nuc that you can create with a 3D printer. The box, feeder tray, lid and the four frames use approx 645 grams (this will change as I make changes) (10% infill box, 20% infill all other parts) of filament. The frame size is small .. 1/3 of a normal Langstroth medium frames. With the spanners, the three frames can be taken out of the nuc and placed into a full medium Langstroth hive.
+A 3 frame mating nuc that you can create with a 3D printer. The box, feeder tray, lid and the three frames use approx 550 grams (this will change as I make changes) (10% infill box, 20% infill all other parts) of filament. The frame size is small .. 1/3 of a normal Langstroth medium frames. With the spanners, the three frames can be taken out of the nuc and placed into a full medium Langstroth hive.
 
 All parts are 3D printed, except one #4 x 3/8 (3mmx8) self-tapping (sheet metal, wood, cement) pan head screw to attach the entrance disk gate will be needed.
 
@@ -19,7 +20,9 @@ ASA filament or a high temp/low warp PLA should work best. Annealing the PLA doe
 
 **The feed tray:** Has a queen excluder to keep the queen away from the feed. Solid feed is better, ie: sugar, baker's fondant or candy (often times called fondant but it is not), or even pollen patties. The feed tray is optional. If you want to feed sugar syrup, then it would be best to print the top cover with a feed hole.
 
-**The nuc cover:** Has option to be printed with a feed hole or not. With the feed hole, you can place a jar or other feeding container over the hive to feed the bees liquid feed (eg: 1:1 syrup). 
+**The nuc cover:** Has option to be printed with a feed hole or not. With the feed hole, you can place a jar or other feeding container over the hive to feed the bees liquid feed (eg: 1:1 syrup).
+
+**The spanners:** OK, maybe not the best name, a spanner in UK english is a wrench ... but this allows you to place the mini frames into a medium (or deep) box and have the bees draw the frames before using them in a mating nuc.
 
 _**This project has been placed in the Public Domain**_ as a thanks to all those very open, sharing and kind beekeepers all throughout the world, the open source software developers, including those who provide CAD software and slicing software, and to those who develop open source 3d printing machines. Kudos to you all! 
 
